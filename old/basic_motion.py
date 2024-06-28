@@ -19,9 +19,6 @@ def linear_combination(a, b):
     v = b * j.copy()
 
 
-
-
-
 # Input direction in degrees
 class Force:
     def __init__(self, magnitude, direction, x_force=0, y_force=0):
@@ -63,6 +60,7 @@ class Force:
 
     def get_y_force(self):
         return self.y_component
+
 
 class ForceVector:
     def __init__(self, matrix=np.zeros((2, 2))):

@@ -1,0 +1,16 @@
+shadow_wizard_money_gang/
+├── assets/
+│   ├── images/
+│   ├── sounds/
+│   └── fonts/
+├── scripts/
+│   ├── __init__.py
+│   ├── animation.py
+│   ├── collisions.py
+│   ├── movement.py
+│   └── utilities.py
+├── main.py
+├── settings.py
+├── game_objects.py
+├── palette.py
+└── README.md
